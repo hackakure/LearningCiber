@@ -16,7 +16,6 @@ Este repositorio es más que una colección de recursos: es el **dojo digital** 
 ## 🗺️ Navegación del Dojo
 
 ### 📚 Documentación Core
-- **[🛤️ Roadmap de Aprendizaje](docs/roadmap.md)** - Tu ruta desde principiante hasta maestro
 - **[🧪 Configuración de Laboratorio](docs/lab-setup.md)** - Setup completo para práctica
 - **[🔍 Guía OSINT](docs/osint-guide.md)** - Intelligence gathering masterclass
 - **[🏆 Laboratorios CTF](docs/ctf-labs.md)** - Challenges progresivos
@@ -42,13 +41,13 @@ Este repositorio es más que una colección de recursos: es el **dojo digital** 
 git clone https://github.com/hackakure/LearningCiber.git
 cd LearningCiber
 
-# 2. Revisar tu nivel actual
-cat docs/roadmap.md
-
-# 3. Configurar laboratorio
+# 2. Configurar laboratorio
 bash setup-github.sh
 
-# 4. Comenzar práctica
+# 3. Comenzar con OSINT
+cat docs/osint-guide.md
+
+# 4. Práctica hands-on
 cd labs/beginner/
 ```
 
