@@ -30,6 +30,7 @@ Este repositorio es más que una colección de recursos: es el **dojo digital** 
 ### 📖 Recursos Curados
 - **[🇪🇸 Recursos en Español](resources/spanish-resources.md)** - Academia, certificaciones, comunidad hispana
 - **[🎧 Podcasts & Audio](resources/podcasts-audio.md)** - Aprendizaje continuo
+- **[🌟 Awesome Lists](resources/awesome-lists.md)** - Recopilatorio global de listas curadas
 - **[📚 Libros & Papers](resources/books-papers.md)** - Conocimiento profundo
 - **[🛠️ Tools & Software](resources/tools-software.md)** - Arsenal del hacker ético
 - **[👥 Comunidades](resources/communities.md)** - Networking y eventos
