@@ -42,13 +42,10 @@ Este repositorio es más que una colección de recursos: es el **dojo digital** 
 git clone https://github.com/hackakure/LearningCiber.git
 cd LearningCiber
 
-# 2. Configurar laboratorio
-bash setup-github.sh
-
-# 3. Comenzar con OSINT
+# 2. Comenzar con OSINT
 cat docs/osint-guide.md
 
-# 4. Práctica hands-on
+# 3. Práctica hands-on
 cd labs/beginner/
 ```
 
