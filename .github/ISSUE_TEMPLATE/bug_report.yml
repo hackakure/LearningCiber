@@ -1,0 +1,60 @@
+name: 🐛 Bug Report
+description: Report a broken link or incorrect information
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar este repositorio reportando problemas.
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Tipo de problema
+      description: ¿Qué tipo de problema has encontrado?
+      options:
+        - Enlace roto
+        - Información incorrecta
+        - Recurso obsoleto
+        - Categorización incorrecta
+        - Descripción inexacta
+        - Otro
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: URL del recurso afectado
+      description: Proporciona el enlace específico que presenta el problema
+      placeholder: https://example.com/broken-link
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del problema
+      description: Describe detalladamente qué está mal y cómo debería ser
+      placeholder: El enlace devuelve un error 404...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Solución sugerida (opcional)
+      description: Si conoces una solución o alternativa, compártela
+      placeholder: Se podría reemplazar por https://alternative-link.com
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verificación
+      description: Confirma que has verificado el problema
+      options:
+        - label: He verificado que el problema existe actualmente
+          required: true
+        - label: He buscado si ya existe un issue similar
+          required: true

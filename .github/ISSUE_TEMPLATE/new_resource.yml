@@ -1,0 +1,122 @@
+name: ✨ Nuevo Recurso
+description: Suggest a new cybersecurity resource
+title: "[RECURSO]: "
+labels: ["enhancement", "new-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por contribuir con un nuevo recurso! Ayuda a que la comunidad crezca.
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Nombre del Recurso
+      description: Nombre oficial del recurso/herramienta/plataforma
+      placeholder: ej. "HackTheBox Academy"
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: URL
+      description: Enlace directo al recurso
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoría
+      description: ¿En qué sección debería incluirse?
+      options:
+        - Primeros Pasos
+        - Formación Estructurada
+        - Herramientas Esenciales
+        - Certificaciones
+        - Laboratorios y CTFs
+        - Cheat Sheets y Referencias
+        - OSINT
+        - Análisis de Malware
+        - Criptografía
+        - Seguridad Móvil
+        - Cloud Security
+        - Canales y Podcasts
+        - Libros Recomendados
+        - Comunidades
+        - Otra (especificar en descripción)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Descripción concisa del recurso (máximo 100 caracteres)
+      placeholder: Plataforma gamificada perfecta para empezar en ciberseguridad
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Nivel de dificultad
+      description: ¿Para qué nivel está dirigido?
+      options:
+        - Principiante
+        - Intermedio
+        - Avanzado
+        - Todos los niveles
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Coste
+      description: ¿Es gratuito o de pago?
+      options:
+        - Gratuito
+        - Freemium
+        - De pago
+        - Subscripción
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Idioma principal
+      description: ¿En qué idioma está disponible?
+      options:
+        - Español
+        - Inglés
+        - Multiidioma
+        - Otro
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-valuable
+    attributes:
+      label: ¿Por qué es valioso?
+      description: Explica por qué este recurso debería incluirse en la lista
+      placeholder: Es especialmente útil porque...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verificación
+      options:
+        - label: He verificado que el enlace funciona correctamente
+          required: true
+        - label: El recurso tiene propósito educativo/profesional legítimo
+          required: true
+        - label: No es un duplicado de recursos ya listados
+          required: true
+        - label: He revisado las guías de contribución
+          required: true
