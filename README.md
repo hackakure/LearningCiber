@@ -16,10 +16,7 @@ Este repositorio es más que una colección de recursos: es el **dojo digital** 
 ## 🗺️ Navegación del Dojo
 
 ### 📚 Documentación Core
-- **[🧪 Configuración de Laboratorio](docs/lab-setup.md)** - Setup completo para práctica
 - **[🔍 Guía OSINT](docs/osint-guide.md)** - Intelligence gathering masterclass
-- **[🏆 Laboratorios CTF](docs/ctf-labs.md)** - Challenges progresivos
-- **[🥷 Filosofía Hackakure](docs/philosophy.md)** - El camino del hacker ético
 
 ### 🎯 Laboratorios Prácticos
 - **[🌱 Beginner Labs](labs/beginner/)** - Fundamentos y primeros pasos
